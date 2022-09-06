@@ -76,7 +76,7 @@ So Let's make an example. 🛠
 
 ⏩ Create an Adapter for class for datas to integrate recyclerview
 
-    class CustomAdapter(private val mList: List<ViewModel>) : RecyclerView.Adapter<CustomAdapter.ViewHolder>() {
+   class CustomAdapter(private val mList: List<ViewModel>) : RecyclerView.Adapter<CustomAdapter.ViewHolder>() {
 
     // create new views
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
@@ -110,13 +110,13 @@ So Let's make an example. 🛠
     class ViewHolder(ItemView: View) : RecyclerView.ViewHolder(ItemView) {
         val imageView: ImageView = itemView.findViewById(R.id.imageview)
         val textView: TextView = itemView.findViewById(R.id.textView)
-    }
-  }
+      }
+     }
 
 ⏩ At least define recyclerview in MainActivity
 
-   class MainActivity : AppCompatActivity() {
-     override fun onCreate(savedInstanceState: Bundle?) {
+      class MainActivity : AppCompatActivity() {
+       override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
@@ -141,8 +141,8 @@ So Let's make an example. 🛠
         // Setting the Adapter with the recyclerview
         recyclerview.adapter = adapter
 
+       }
      }
-   }
 
 🏁 <img width="224" alt="2" src="https://user-images.githubusercontent.com/88722745/186472080-f17c09ad-e609-4833-9363-4d81050618dd.png">
 
