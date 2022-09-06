@@ -14,14 +14,14 @@ So Let's make an example. 🛠
 
 ⏩ Create a new layout XML for cardview as below;
 
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.cardview.widget.CardView
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="match_parent"
-    android:layout_height="50dp"
-    android:layout_margin="10dp"
-    app:cardElevation="6dp">
+     <?xml version="1.0" encoding="utf-8"?>
+     <androidx.cardview.widget.CardView
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      android:layout_margin="10dp"
+      app:cardElevation="6dp">
 
     <LinearLayout
         android:layout_width="match_parent"
