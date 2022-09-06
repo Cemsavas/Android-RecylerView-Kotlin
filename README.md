@@ -46,7 +46,7 @@ So Let's make an example. 🛠
 
     </LinearLayout>
 
-   </androidx.cardview.widget.CardView>
+     </androidx.cardview.widget.CardView>
 
 ⏩ Add a cardview to activity main layout
 
@@ -111,7 +111,7 @@ So Let's make an example. 🛠
         val imageView: ImageView = itemView.findViewById(R.id.imageview)
         val textView: TextView = itemView.findViewById(R.id.textView)
     }
- }
+  }
 
 ⏩ At least define recyclerview in MainActivity
 
@@ -142,7 +142,7 @@ So Let's make an example. 🛠
         recyclerview.adapter = adapter
 
      }
-  }
+   }
 
 🏁 <img width="224" alt="2" src="https://user-images.githubusercontent.com/88722745/186472080-f17c09ad-e609-4833-9363-4d81050618dd.png">
 
