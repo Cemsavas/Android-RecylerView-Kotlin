@@ -70,11 +70,13 @@ So Let's make an example. 🛠
 
 ⏩ Create a dataclass named as ViewModel
 
-data class ViewModel(val image:Int, val text:String){}
+    data class ViewModel(val image:Int, val text:String){
+    
+    }
 
 ⏩ Create an Adapter for class for datas to integrate recyclerview
 
-class CustomAdapter(private val mList: List<ViewModel>) : RecyclerView.Adapter<CustomAdapter.ViewHolder>() {
+    class CustomAdapter(private val mList: List<ViewModel>) : RecyclerView.Adapter<CustomAdapter.ViewHolder>() {
 
     // create new views
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
