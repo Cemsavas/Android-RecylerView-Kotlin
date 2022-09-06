@@ -46,12 +46,12 @@ So Let's make an example. 🛠
 
     </LinearLayout>
 
-</androidx.cardview.widget.CardView>
+   </androidx.cardview.widget.CardView>
 
 ⏩ Add a cardview to activity main layout
 
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+  <?xml version="1.0" encoding="utf-8"?>
+  <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -66,7 +66,7 @@ So Let's make an example. 🛠
         tools:itemCount="5"
         tools:listitem="@layout/card_view_design" />
 
-</LinearLayout>
+  </LinearLayout>
 
 ⏩ Create a dataclass named as ViewModel
 
@@ -111,12 +111,12 @@ So Let's make an example. 🛠
         val imageView: ImageView = itemView.findViewById(R.id.imageview)
         val textView: TextView = itemView.findViewById(R.id.textView)
     }
-}
+ }
 
 ⏩ At least define recyclerview in MainActivity
 
-class MainActivity : AppCompatActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
+   class MainActivity : AppCompatActivity() {
+     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
@@ -141,8 +141,8 @@ class MainActivity : AppCompatActivity() {
         // Setting the Adapter with the recyclerview
         recyclerview.adapter = adapter
 
-    }
-}
+     }
+  }
 
 🏁 <img width="224" alt="2" src="https://user-images.githubusercontent.com/88722745/186472080-f17c09ad-e609-4833-9363-4d81050618dd.png">
 
